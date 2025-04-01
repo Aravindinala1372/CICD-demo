@@ -6,7 +6,7 @@ Feature: To create new order in application
     # Retrieve cartId from file
     * def cartId = read('file:/home/runner/work/DemoOf_CI-CD/DemoOf_CI-CD/target/test-classes/api/automation/cartId.txt')
     # Retrieve access token from file
-    * def accessToken = read('file:/home/runner/work/DemoOf_CI-CD/DemoOf_CI-CD/target/test-classes/api/automation/accessToken.txt')
+    * def accessToken = read('file:/home/runner/work/DemoOf_CI-CD/DemoOf_CI-CD/src/test/java/api/automation/accessToken.txt')
 
   Scenario Outline: Create new order in application
     Given path '/orders'
