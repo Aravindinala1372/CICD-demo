@@ -33,4 +33,4 @@ Feature: create authentication token
 
     Examples: 
       | clientName  | clientEmail          |
-      | "Joe Smith" | "joesmith11@gmail.com" |
+      | "Joe Biden" | "tonystark@gmail.com" |

@@ -13,6 +13,7 @@ public class ParallelBuilder {
  
 	@Test
 	public void executeKarateTest() {
+		@SuppressWarnings("rawtypes")
 		Builder aRunner = new Builder<>();
 //		aRunner.path("classpath:com/api/automation");
 		
