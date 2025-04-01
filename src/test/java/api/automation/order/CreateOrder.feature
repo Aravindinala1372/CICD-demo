@@ -43,4 +43,4 @@ Feature: To create new order in application
 
     Examples: 
       | customerName      |
-      | "Shreyash Chavan" |
+      | "Aravind Inala" |
