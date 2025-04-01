@@ -1,4 +1,4 @@
-name: Karate API Tests
+name: Karate API Testing 
 
 on:
   push:
