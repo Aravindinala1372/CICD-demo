@@ -3,7 +3,7 @@ Feature: To test the single order created by the API client.
 
   Background: Setup the base path
     Given url 'https://simple-grocery-store-api.glitch.me'
-    * def accessToken = read('file:/home/runner/work/DemoOf_CI-CD/DemoOf_CI-CD/target/test-classes/api/automation/accessToken.txt') 
+    * def accessToken = read('classpath:api/automation/accessToken.txt')
     * def orderId =  read('file:/home/runner/work/DemoOf_CI-CD/DemoOf_CI-CD/target/test-classes/api/automation/orderId.txt')  
     * print orderId
 
