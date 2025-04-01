@@ -44,9 +44,10 @@ jobs:
 
       # Step 6: Upload Karate and Cucumber Reports
       - name: Upload Karate and Cucumber Reports
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: test-reports
           path: |
+            target/cucumber-html-reports/
             target/karate-reports/
-            target/cucumber-reports/
