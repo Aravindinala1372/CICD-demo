@@ -24,6 +24,7 @@ Feature: To automate the tests
     # And call read("classpath:api/automation/cart/ChangeItemQuantity.feature")
     # And call read("classpath:api/automation/cart/ReplaceItem.feature")
     # And call read("classpath:api/automation/cart/DeleteItemFromCart.feature")
+   
     # ORDERS
   Scenario: create order
     And call read("classpath:api/automation/order/CreateOrder.feature")
