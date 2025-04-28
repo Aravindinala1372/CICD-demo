@@ -16,4 +16,4 @@ Feature: To update an order created by the API client.
 
     Examples: 
       | customerName  | comment                    |
-      | "John Watson" | " name updated...Customer" |
+      | "Emma Watson" | " name updated...Customer" |
